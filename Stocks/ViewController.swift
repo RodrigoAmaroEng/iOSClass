@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    static var wallet = Wallet()
+    static var broker = Broker()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let pags = Paper(name: "PagSeguro Digital LTD", identifier: "PAGS")
+        let stne = Paper(name: "Stone Inc", identifier: "STNE")
+        ViewController.broker.stocks.append(Stock(pags,28.57))
+        ViewController.broker.stocks.append(Stock(stne,31.42))
     }
 
 

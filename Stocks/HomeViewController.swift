@@ -24,8 +24,13 @@ class HomeViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         guard let identifier = segue.identifier else { return }
-        if identifier == "GoToRed" {
-            segue.destination.view.backgroundColor = .green
+        switch identifier {
+        case "GoToRed":
+            segue.destination.view.backgroundColor = .red
+        case "GoToBlue":
+            segue.destination.view.backgroundColor = .blue
+        default:
+            break
         }
         // Pass the selected object to the new view controller.
     }

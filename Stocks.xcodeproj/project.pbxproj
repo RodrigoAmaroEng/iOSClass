@@ -18,6 +18,8 @@
 		BAB0D4C222270A9800E233B0 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0D4C122270A9800E233B0 /* BlueViewController.swift */; };
 		BAB0D4C42227102700E233B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0D4C32227102700E233B0 /* HomeViewController.swift */; };
 		BAB0D4C62227188800E233B0 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0D4C52227188800E233B0 /* Wallet.swift */; };
+		BAB0D4C822271FAD00E233B0 /* ListStocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0D4C722271FAD00E233B0 /* ListStocksViewController.swift */; };
+		BAB0D4CA22272BB800E233B0 /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB0D4C922272BB800E233B0 /* AddTransactionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		BAB0D4C122270A9800E233B0 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		BAB0D4C32227102700E233B0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BAB0D4C52227188800E233B0 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		BAB0D4C722271FAD00E233B0 /* ListStocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStocksViewController.swift; sourceTree = "<group>"; };
+		BAB0D4C922272BB800E233B0 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				BAB0D497222708B000E233B0 /* Stocks.xcdatamodeld */,
 				BAB0D4C122270A9800E233B0 /* BlueViewController.swift */,
 				BAB0D4C32227102700E233B0 /* HomeViewController.swift */,
+				BAB0D4C722271FAD00E233B0 /* ListStocksViewController.swift */,
+				BAB0D4C922272BB800E233B0 /* AddTransactionViewController.swift */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -271,9 +277,11 @@
 				BAB0D4C62227188800E233B0 /* Wallet.swift in Sources */,
 				BAB0D4C42227102700E233B0 /* HomeViewController.swift in Sources */,
 				BAB0D493222708B000E233B0 /* ViewController.swift in Sources */,
+				BAB0D4C822271FAD00E233B0 /* ListStocksViewController.swift in Sources */,
 				BAB0D491222708B000E233B0 /* AppDelegate.swift in Sources */,
 				BAB0D4C222270A9800E233B0 /* BlueViewController.swift in Sources */,
 				BAB0D499222708B000E233B0 /* Stocks.xcdatamodeld in Sources */,
+				BAB0D4CA22272BB800E233B0 /* AddTransactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
