@@ -109,18 +109,10 @@
 		BAB0D48F222708B000E233B0 /* Stocks */ = {
 			isa = PBXGroup;
 			children = (
-				BAB0D4C52227188800E233B0 /* Wallet.swift */,
-				BAB0D490222708B000E233B0 /* AppDelegate.swift */,
-				BAB0D492222708B000E233B0 /* ViewController.swift */,
-				BAB0D494222708B000E233B0 /* Main.storyboard */,
-				BAB0D49A222708B100E233B0 /* Assets.xcassets */,
-				BAB0D49C222708B100E233B0 /* LaunchScreen.storyboard */,
-				BAB0D49F222708B100E233B0 /* Info.plist */,
-				BAB0D497222708B000E233B0 /* Stocks.xcdatamodeld */,
-				BAB0D4C122270A9800E233B0 /* BlueViewController.swift */,
-				BAB0D4C32227102700E233B0 /* HomeViewController.swift */,
-				BAB0D4C722271FAD00E233B0 /* ListStocksViewController.swift */,
-				BAB0D4C922272BB800E233B0 /* AddTransactionViewController.swift */,
+				BAB98F042229AE9700E4BCD3 /* Resources */,
+				BAB98F032229AE7300E4BCD3 /* Controller */,
+				BAB98F022229AE6E00E4BCD3 /* View */,
+				BAB98F012229AE5E00E4BCD3 /* Model */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -141,6 +133,46 @@
 				BAB0D4B5222708B100E233B0 /* Info.plist */,
 			);
 			path = StocksUITests;
+			sourceTree = "<group>";
+		};
+		BAB98F012229AE5E00E4BCD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAB0D4C52227188800E233B0 /* Wallet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAB98F022229AE6E00E4BCD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAB0D49A222708B100E233B0 /* Assets.xcassets */,
+				BAB0D494222708B000E233B0 /* Main.storyboard */,
+				BAB0D49C222708B100E233B0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAB98F032229AE7300E4BCD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BAB0D4C122270A9800E233B0 /* BlueViewController.swift */,
+				BAB0D492222708B000E233B0 /* ViewController.swift */,
+				BAB0D4C32227102700E233B0 /* HomeViewController.swift */,
+				BAB0D4C722271FAD00E233B0 /* ListStocksViewController.swift */,
+				BAB0D4C922272BB800E233B0 /* AddTransactionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAB98F042229AE9700E4BCD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAB0D490222708B000E233B0 /* AppDelegate.swift */,
+				BAB0D49F222708B100E233B0 /* Info.plist */,
+				BAB0D497222708B000E233B0 /* Stocks.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -14,7 +14,7 @@ class Wallet {
 
 class Transaction {
     let paper: Paper
-    let amount: Int
+    let amount: CLong
     let price: Float
     init(_ paper: Paper, _ amount: Int, _ price: Float) {
         self.paper = paper
@@ -38,9 +38,18 @@ class Stock {
 }
 
 class Broker {
+    
+    let apiKey = "5THFP2AT6SRA0LP3"
+    
     var stocks : [Stock] = []
     
     func stockById(StockId id: String) -> Stock? {
         return stocks.filter { $0.paper.identifier == id }.first
+    }
+}
+
+extension Float {
+    func toCurrency() -> String {
+        return String(format: "$%.02f", self)
     }
 }
